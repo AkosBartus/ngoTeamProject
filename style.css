@@ -195,6 +195,7 @@ img, picture, svg, video {
   min-height: 850px;
   text-align: center;
   gap: 3em;
+
 }
 
 .centered-name {
@@ -275,6 +276,12 @@ img, picture, svg, video {
 #contact {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
 }
 
 .carousel {
@@ -492,3 +499,64 @@ article {
     white-space: nowrap; 
     width: 1px;
   }
+
+
+   /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 1vh; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-bottom: 1em;  /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ccc;
+  color: black;
+  padding: 1vh;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #bbb;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #000;
+  padding: 10px;
+} 
+
+.footer {
+  padding: 3em;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.map-container {
+  display: flex;
+  /* removing this shows iframe, want ot keep this flexbox whilst showing iframe scaling */
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.map-container .embed-container {
+  padding-top: 30px;
+  position: relative;
+  padding-bottom: 52.25%;
+  height: 0;
+  overflow: hidden;
+}
