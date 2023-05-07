@@ -280,6 +280,52 @@ img, picture, svg, video {
     padding: 3rem 0;
 }
 
+/*======================Articles-first-section==========================*/
+
+.wrapper-top,
+.wrapper-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 48px 0;
+}
+
+.wrapper-top-image  {
+  max-width: 400px;
+}
+
+.wrapper-top-image img{
+ border-radius: 4px;
+}
+
+.wrapper-top-text {
+  text-align: center;
+}
+
+.wrapper-top-text p {
+  max-width: 600px;
+  padding-top: 36px;
+  margin: auto;
+}
+
+.wrapper-bottom-image {
+  max-width: 500px;
+}
+
+.wrapper-bottom-image img{
+  border-radius: 4px;
+ }
+
+.wrapper-bottom-text {
+  text-align: center;
+}
+
+.wrapper-bottom-text p {
+  max-width: 600px;
+  padding-top: 36px;
+  margin: auto;
+}
+
+
 /*Articles-second-section*/
 
 .jelentkezem {
