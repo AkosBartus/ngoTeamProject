@@ -256,12 +256,12 @@ img, picture, svg, video {
 /* --- sections --- */
 #first-section {
     background-color: #E1CDC4;
-    height: 1080px;
+    /*height: 1080px;*/
 }
 
 #second-section {
     background-color: #A98467;
-    height: 1080px;
+    /*height: 1080px;*/
 }
 
 #third-section {
@@ -281,6 +281,33 @@ img, picture, svg, video {
     max-width: 1024px;
     margin: 0 auto;
     padding: 3rem 0;
+}
+
+/*Articles-second-section*/
+
+.jelentkezem {
+  border-radius: 10px;
+  background-color: white;
+  color: #28666e;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.jelentkezem-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 20px;
+}
+
+#jel-cont-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul li {
+  padding: 5px;
 }
 
 /* ======================= Articles-fourth-section ========================= */
