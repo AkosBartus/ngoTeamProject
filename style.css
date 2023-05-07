@@ -39,7 +39,7 @@ img, picture, svg, video {
 
 .logo {
   height: 60px;
-  padding: 0.5em;
+  padding: 0.6em;
 }
 
 .top-nav {
@@ -48,6 +48,9 @@ img, picture, svg, video {
   align-items: center;
   justify-content: space-between;
   font-family: 'Oswald', sans-serif;
+  position: fixed;
+  width: calc(100% - 0px);
+  z-index: 99;
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-color: #414141;
