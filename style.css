@@ -390,7 +390,6 @@ article {
   --link-icon-opacity: 0;
   position: relative;
   border-radius: 16px;
-  box-shadow: none;
   background: #fff;
   transform-origin: center;
   transition: all 0.4s ease-in-out;
@@ -459,6 +458,13 @@ article:has(:hover, :focus) {
   --title-color: #28666e;
   --link-icon-translate: 0;
   --link-icon-opacity: 1;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
 }
 
 
